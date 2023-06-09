@@ -1,0 +1,10 @@
+sources:
+  "0.8":
+    url: "https://github.com/stevenlovegrove/Pangolin/archive/refs/tags/v0.8.zip"
+    strip_root: true
+
+patches:
+  "0.8":
+    - patch_file: "patches/glew_path.patch"
+      patch_type: conan
+      patch_description: Use conan libs - opengl, glew
